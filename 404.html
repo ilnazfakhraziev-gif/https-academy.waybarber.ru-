@@ -1,29 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta name="robots" content="noindex">
-    <title>404 Page Not Found.</title>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Переадресация на Академию барберинга «ПУТЬ»</title>
+  <script>
+    (function () {
+      var repoBase = '/https-academy.waybarber.ru-/';
+      var target = repoBase + 'page54667853.html';
+      if (location.pathname.indexOf(repoBase) !== 0) {
+        target = '/page54667853.html';
+      }
+      location.replace(target + location.search + location.hash);
+    }());
+  </script>
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=/https-academy.waybarber.ru-/page54667853.html">
+  </noscript>
 </head>
-<body style="
-    margin:0;
-    min-height:100vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    background:#eee;
-    font-family:sans-serif;
-">
-<div style="text-align:center;">
-    <a href="https://tilda.cc">
-        <img src="//tilda.ws/img/logo404.png"
-             width="120"
-             height="88"
-             alt="Tilda">
-    </a>
-
-    <br><br><br><br>
-
-    <b>404 Page not found</b>
-</div>
+<body style="margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#eee;font-family:Arial,sans-serif;color:#111;">
+  <main style="text-align:center;padding:24px;">
+    <h1 style="font-size:24px;margin:0 0 12px;">Открываем сайт академии…</h1>
+    <p style="margin:0 0 18px;">Если переадресация не сработала, нажмите кнопку ниже.</p>
+    <a href="/https-academy.waybarber.ru-/page54667853.html" style="display:inline-block;padding:12px 20px;border-radius:999px;background:#111;color:#fff;text-decoration:none;">Открыть сайт</a>
+  </main>
 </body>
 </html>
